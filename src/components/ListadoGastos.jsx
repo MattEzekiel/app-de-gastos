@@ -1,11 +1,11 @@
 import Gasto from "./Gasto";
 
 export default function ListadoGastos({
-                                          gastos,
-                                          setGastoEditar,
-                                          eliminarGasto,
-                                          gastosFiltrados,
-                                          filtro
+    gastos,
+    setGastoEditar,
+    eliminarGasto,
+    gastosFiltrados,
+    filtro
 }) {
     return (
         <div className={"listado-gastos contenedor"}>
